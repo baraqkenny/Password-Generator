@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+*{
+  font-family: Arial;
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  padding: 24px;
+ 
+}
+
+.header{
+  background-color:#24232b;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  tranform: translate(-50%, -50%);
+  width: 600px;
+  height: 420px;
+  padding: 24px;
+}
+
+
+.top-content{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 24px;
+  color: #fff;
+}
+
+button{
+padding: 10px;
+border-radius: 5px;
+border: none;
+background-color: #2a8b8b;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+cursor: pointer;
+}
+
+.copy-btn {
+  height: 30px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.char-length{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.char-length span{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+  
+}
+
+.generate-btn{
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+}
+
+.password-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: #fff;
+}
